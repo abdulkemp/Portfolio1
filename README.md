@@ -1,4 +1,4 @@
-# frontend
+# portfolio
 
 ## Project setup
 ```
