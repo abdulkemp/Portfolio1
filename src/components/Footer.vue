@@ -17,19 +17,22 @@
           </li>
         </ul>
         <ul class="links2">
-            <li class="nav-item">
-                <a href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a href="#testimonials">Testimonials</a>
-            </li>
-            <li class="nav-item">
-                <a href="#contact">Contact Me</a>
-            </li>
+          <li class="nav-item">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact">Contact Me</a>
+          </li>
         </ul>
         <div class="socials">
           <div class="nav-items">
-            <a href="http://linkedin.com" class="linkedin">
+            <a
+              href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAADdFuPgB2I1G4-ah-IZhI8rEvVRGrD2fPCU&keywords=abdul%20azeez%20kemp&origin=RICH_QUERY_SUGGESTION&position=2&searchId=a6af49ed-c659-42e5-9839-eed0b3f28d1c&sid=67k"
+              class="linkedin"
+            >
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </div>
@@ -143,10 +146,10 @@ export default {
   font-size: 35px;
 }
 
-.nav-items{
-    justify-content: center;
-    align-items: center;
-    width: 3rem;
+.nav-items {
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
 }
 
 .linkedin:hover {
