@@ -136,8 +136,7 @@ label {
   color: black;
 }
 
-.di{
-    margin-left: 10rem;
-    margin-right: 10rem;
+.container{
+    width: 76%;
 }
 </style>
