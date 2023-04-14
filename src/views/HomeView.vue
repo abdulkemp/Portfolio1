@@ -7,6 +7,7 @@
     <Projects />
     <Testimonials />
     <Contact />
+    <Footer />
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import Testimonials from "@/components/Testimonials.vue";
 import Education from "@/components/Education.vue";
 import Projects from "@/components/Projects.vue";
 import Contact from "@/components/Contact.vue";
+import Footer from "@/components/Footer.vue";
 export default {
   name: "Home",
   components: {
@@ -28,6 +30,7 @@ export default {
     Education,
     Projects,
     Contact,
+    Footer
   },
 };
 </script>
