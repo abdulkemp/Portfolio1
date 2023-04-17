@@ -2,7 +2,7 @@
   <div>
     <div class="footer">
       <div class="linkings">
-        <ul class="links">
+        <ul class="links" style="list-style: none;">
           <li class="nav-item">
             <a href="#home">Home</a>
           </li>
@@ -16,7 +16,7 @@
             <a href="#education">Education and experience</a>
           </li>
         </ul>
-        <ul class="links2">
+        <ul class="links2" style="list-style: none;" >
           <li class="nav-item">
             <a href="#projects">Projects</a>
           </li>
@@ -78,6 +78,7 @@ export default {
 .nav-item li {
   text-decoration: none;
 }
+
 .links a {
   text-decoration: none;
   color: black;

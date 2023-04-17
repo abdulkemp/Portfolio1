@@ -3,15 +3,7 @@
     <div class="education-skills">
       <h1>Education and Experience</h1>
     </div>
-    <!-- <div class="education">
-      <div class="edu" v-for="item in resume" :key="item">
-        <div class="text">
-          <h1>{{ item.year }}</h1>
-          <h2>{{ item.place }}</h2>
-          <p>{{ item.desc }}</p>
-        </div>
-      </div> -->
-    <div class="prod container">
+    <div class="container">
       <div class="row">
         <div class="col-md-4 mt-5" v-for="item in resume" :key="item">
           <div class="card">
@@ -28,12 +20,14 @@
     <div class="skills">
       <h1>Skills</h1>
     </div>
-    <div class="my-skills">
-      <div class="row">
-        <div class="col-md-3 mt-5" v-for="item in skill" :key="item">
-          <div class="card">
-            <div class="card-body">
-              <img :src="item.image" alt="..." />
+    <div class="skill">
+      <div class="my-skills">
+        <div class="row">
+          <div class="col-md-3 mt-5" v-for="item in skill" :key="item">
+            <div class="card bod">
+              <div class="card-body">
+                <img :src="item.image" alt="..." />
+              </div>
             </div>
           </div>
         </div>
@@ -120,6 +114,7 @@ export default {
   text-align: center;
   background-color: wheat;
   border: 2px solid black;
+  transition: transform .2s;
 }
 
 .education-skills {
@@ -142,12 +137,22 @@ export default {
   background: white;
   transition: 0.5s;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.7);
+  transform: scale(1.1);
+  overflow: hidden;
 }
 
 #education {
   border-bottom: 1px solid black;
   margin-left: 5rem;
   margin-right: 5rem;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+}
+.skill{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-body img {
@@ -160,5 +165,9 @@ export default {
   justify-content: center;
   align-items: center;
   margin-bottom: 5rem;
+}
+
+.bod {
+  background: rgba(0, 89, 255, 0.435);
 }
 </style>
