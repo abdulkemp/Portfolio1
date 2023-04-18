@@ -1,16 +1,20 @@
 <template>
-  <div id="education">
-    <div class="education-skills">
-      <h1>Education and Experience</h1>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 mt-5" v-for="item in resume" :key="item">
-          <div class="card">
-            <div class="card-body">
-              <h1>{{ item.year }}</h1>
-              <h2>{{ item.place }}</h2>
-              <p>{{ item.desc }}</p>
+  <div class="edu">
+    <div id="education">
+      <div class="education-skills">
+        <h1>Education and Experience</h1>
+      </div>
+      <div class="education">
+        <div class="container">
+          <div class="row edu" style="display: flex;justify-content: center;">
+            <div class="col-sm-3 mx-5 my-2" v-for="item in resume" :key="item">
+              <div class="card bo">
+                <div class="card-body">
+                  <h1>{{ item.year }}</h1>
+                  <h2>{{ item.place }}</h2>
+                  <p>{{ item.desc }}</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -22,7 +26,7 @@
     </div>
     <div class="skill">
       <div class="my-skills">
-        <div class="row">
+        <div class="row ski" style="display: flex;justify-content: center;">
           <div class="col-md-3 mt-5" v-for="item in skill" :key="item">
             <div class="card bod">
               <div class="card-body">
@@ -102,19 +106,13 @@ export default {
 </script>
 
 <style>
-/* .edu {
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
-} */
-
 .card {
   width: 20rem;
   height: 15rem;
   text-align: center;
   background-color: wheat;
   border: 2px solid black;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 .education-skills {
@@ -142,17 +140,22 @@ export default {
 }
 
 #education {
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
   margin-left: 5rem;
   margin-right: 5rem;
   justify-content: center;
   align-items: center;
   display: inline-block;
 }
-.skill{
+.skill {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.my-skills{
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .card-body img {
@@ -160,14 +163,38 @@ export default {
   height: 12rem;
 }
 
-.row {
+.education {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5rem;
+  /* margin-bottom: 5rem; */
 }
 
 .bod {
   background: rgba(0, 89, 255, 0.435);
+}
+.edu{
+  display: inline-block;
+  justify-content: center;
+  width: 100%;
+}
+
+@media screen and ( max-width: 650px) {
+  #education{
+    margin: 0;
+  }
+  
+
+  .education-skills{
+    display: inline-block;
+    justify-content: center;
+  }
+
+  .bo{
+    width: 17rem;
+  }
+  .bod{
+    width: 17rem;
+  }
 }
 </style>

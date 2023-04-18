@@ -5,9 +5,9 @@
     </div>
     <div class="testimonials">
       <div class="container1">
-        <div class="row bord mx-2">
+        <div class="row bord mx-3">
           <div
-            class="col-sm-5 mx-5 my-4 testos"
+            class="col-sm-5 mx-5 my-3 testos"
             v-for="test in testies"
             :key="test"
           >
@@ -76,7 +76,7 @@ export default {
 <style>
 .testimonials {
   /* height: 100vh; */
-  display: inline-block;
+  display: flex;
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid black;
@@ -99,24 +99,45 @@ export default {
   align-items: center;
   /* width: 15rem; */
   border: 3px solid black;
-  height: 15rem;
+  height: 17rem;
   /* flex-wrap: wrap; */
+  background-color: white;
 }
 
-.testos img {
-  width: 40rem;
-  height: 10rem;
-}
 .im img{
-  width: 12rem;
-  height: 16rem;
+  width: 14rem;
+  height: 18rem;
 }
 
 .im{
   border: 3px solid black;
+  
 }
 
 .boda{
   padding-left: 1rem;
 }
+
+
+@media screen and (max-width: 650px) {
+  /* #testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  .bord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+  }
+  /* .im{
+    width: 7rem;
+  } */
+  .im img{
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
 </style>

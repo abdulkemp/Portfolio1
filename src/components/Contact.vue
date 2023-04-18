@@ -136,7 +136,7 @@ label {
   color: black;
 }
 
-.container{
+/* .container{
     width: 76%;
-}
+} */
 </style>

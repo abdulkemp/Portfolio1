@@ -71,4 +71,25 @@ export default {
   color: white;
   cursor: pointer;
 }
+
+@media screen and (max-width: 650px) {
+  /* .home {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  .homepage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-img {
+    display: none;
+  }
+}
 </style>
