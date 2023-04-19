@@ -5,9 +5,9 @@
         <h1>Education and Experience</h1>
       </div>
       <div class="education">
-        <div class="container">
+        <div class="co">
           <div class="row edu" style="display: flex;justify-content: center;">
-            <div class="col-sm-3 mx-5 my-2" v-for="item in resume" :key="item">
+            <div class="col-sm-3 my-2 boo" v-for="item in resume" :key="item">
               <div class="card bo">
                 <div class="card-body">
                   <h1>{{ item.year }}</h1>
@@ -27,7 +27,7 @@
     <div class="skill">
       <div class="my-skills">
         <div class="row ski" style="display: flex;justify-content: center;">
-          <div class="col-md-3 mt-5" v-for="item in skill" :key="item">
+          <div class="col-md-3 mt-5 " v-for="item in skill" :key="item">
             <div class="card bod">
               <div class="card-body">
                 <img :src="item.image" alt="..." />
@@ -160,6 +160,11 @@ export default {
   justify-content: center;
   align-items: center;
 }
+.co {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .my-skills{
   margin-left: 5rem;
@@ -189,11 +194,29 @@ export default {
   /* border-bottom: 1px solid black; */
 }
 
+.boo{
+  margin-right: 1rem;
+}
+
 @media screen and ( max-width: 650px) {
   #education{
     margin: 0;
+    
   }
   
+  .co{
+    display: flex;
+    justify-content: center;
+  }
+  .boo{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  /* .edu{
+    display: flex;
+    justify-content: center;
+  } */
 
   .education-skills{
     display: inline-block;

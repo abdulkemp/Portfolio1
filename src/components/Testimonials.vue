@@ -105,20 +105,18 @@ export default {
   background-color: white;
 }
 
-.im img{
+.im img {
   width: 14rem;
   height: 18rem;
 }
 
-.im{
+.im {
   border: 3px solid black;
-  
 }
 
-.boda{
+.boda {
   padding-left: 1rem;
 }
-
 
 @media screen and (max-width: 650px) {
   /* #testimonials{
@@ -126,19 +124,32 @@ export default {
     justify-content: center;
     align-items: center;
   } */
-  .bord{
+  .boda {
+    padding-left: 0;
+  }
+  .bord {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20rem;
+    width: 18rem;
   }
   /* .im{
     width: 7rem;
   } */
-  .im img{
+  .im img {
     width: 10rem;
     height: 10rem;
   }
+  .testos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 15rem; */
+    border: 3px solid black;
+    height: 28rem;
+    flex-wrap: wrap;
+    background-color: white;
+    text-align: center;
+  }
 }
-
 </style>

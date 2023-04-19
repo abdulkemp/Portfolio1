@@ -79,6 +79,10 @@ export default {
   text-decoration: none;
 }
 
+.links{
+  margin-top: 1rem;
+}
+
 .links a {
   text-decoration: none;
   color: black;

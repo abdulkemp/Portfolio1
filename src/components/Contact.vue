@@ -109,7 +109,7 @@ export default {};
 
 <style>
 .contact {
-  height: 100vh;
+  /* height: 100vh; */
   display: inline-block;
   justify-content: center;
   align-items: center;

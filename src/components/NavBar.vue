@@ -58,6 +58,8 @@ export default {
   text-align: center;
 }
 
+
+
 .nav-item {
   padding-inline: 1rem;
 }

@@ -5,9 +5,15 @@
     </div>
     <div class="projects">
       <div class="container1">
-        <div class="row content mx-2" style="display: flex;justify-content: center;">
+        <div
+          class="row content"
+          style="
+            display: flex;
+            justify-content: center;
+          "
+        >
           <div
-            class="col-sm-5 mx-5 my-4 proj animate__animated animate__backInUp"
+            class="col-sm-5 my-4 proj animate__animated animate__backInUp"
             v-for="pro in work"
             :key="pro"
             :pro="pro"
@@ -98,8 +104,12 @@ export default {
   text-decoration: underline;
 }
 
-.container1 {
-  display: inline-block;
+
+
+.container1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .card-title {
   padding: 18px;
@@ -110,6 +120,7 @@ export default {
 .proj {
   height: 23rem;
   max-width: 18rem;
+  margin-right: 2rem;
   border: 3px solid;
   background-color: rgba(128, 128, 128, 0.686);
   background-size: 100% 100%;
@@ -165,13 +176,13 @@ export default {
   margin-left: 5rem;
   margin-right: 5rem;
 }
-
-@media screen and(max-width: 650px) {
-  .but {
+@media screen and( max-width: 650px) {
+  .content {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 25rem;
+  }
+  #projects{
+    background: red
   }
 }
 </style>
