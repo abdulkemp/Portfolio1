@@ -24,6 +24,14 @@
             playing games, sports and learning knew skills other than IT
             related.
           </p>
+          <p>
+            Call me: 082 886 9476 <br />
+            Email : aakemp786@gmail.com
+          </p>
+          <div class="download">
+            <button class="down">Download CV</button>
+            <button class="down">Download Resume</button>
+          </div>
         </div>
       </div>
     </div>
@@ -44,18 +52,35 @@ export default {
   box-sizing: border-box;
 }
 
+.download {
+  display: flex;
+  justify-content: space-between;
+}
 
+.down {
+  width: 10rem;
+  height: 3rem;
+  background: blue;
+  border: 2px solid black;
+  border-radius: 50px;
+  color: white;
+}
 
-.about-me{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3rem;
-  }
+.down:hover {
+  background: black;
+  color: white;
+}
 
-  .about-me h1{
-    text-decoration: underline;
-  }
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.about-me h1 {
+  text-decoration: underline;
+}
 
 .about {
   width: 100%;
@@ -63,7 +88,6 @@ export default {
   display: inline-block;
   justify-content: center;
   align-items: center;
-  
 }
 .about .info img {
   width: 600px;
@@ -89,7 +113,7 @@ export default {
   margin-top: 1rem;
   margin-bottom: 1rem;
   text-transform: capitalize;
-  color: red;
+  color: black;
   font-size: 42px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -114,18 +138,32 @@ export default {
     /* display: inline-block; */
   }
 
-  .about{
+  .download {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .down {
+    font-size: 11px;
+    width: 7rem;
+    height: 3rem;
+    border: 2px solid black;
+    border-radius: 50px;
+    color: white;
+  }
+
+  .about {
     display: inline-block;
   }
 
-  .about-me{
+  .about-me {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
   }
 
-  .about-me h1{
+  .about-me h1 {
     text-decoration: underline;
   }
   .para h1 {

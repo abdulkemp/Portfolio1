@@ -5,7 +5,7 @@
         <h1>Contact Me</h1>
       </div>
       <div class="di">
-        <div class="container">
+        <div class="container com">
           <form
             action="https://formspree.io/f/xrgvgwee"
             method="POST"
@@ -141,6 +141,15 @@ label {
 }
 .form-select{
   border: 1px solid black;
+}
+@media screen and (max-width: 650px) {
+  .com{
+    width: 15rem;
+  }
+  #contact{
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /* .container{

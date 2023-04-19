@@ -184,7 +184,7 @@ export default {
 }
 
 .bod {
-  background: rgba(0, 89, 255, 0.435);
+  background-color: wheat;
 }
 .edu{
   display: inline-block;
@@ -203,7 +203,7 @@ export default {
     margin: 0;
     
   }
-  
+
   .co{
     display: flex;
     justify-content: center;

@@ -146,7 +146,7 @@ export default {
     align-items: center;
     /* width: 15rem; */
     border: 3px solid black;
-    height: 28rem;
+    height: 30rem;
     flex-wrap: wrap;
     background-color: white;
     text-align: center;

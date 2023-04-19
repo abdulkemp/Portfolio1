@@ -10,9 +10,6 @@
             <a href="#about">About Me</a>
           </li>
           <li class="nav-item">
-            <a href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
             <a href="#education">Education and experience</a>
           </li>
         </ul>
@@ -121,16 +118,17 @@ export default {
   font-size: 20px;
 }
 .linkings {
+  background-color: rgb(100, 99, 99);
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   width: 100rem;
-  max-width: 95%;
+  /* max-width: 95%; */
   margin: 0 auto;
 }
 .lower {
-  background-color: grey;
+  background-color: rgb(61, 61, 61);
   /* margin-top: 2rem; */
 }
 .socials {
@@ -162,5 +160,18 @@ export default {
 }
 .github:hover {
   color: rgb(185, 184, 184);
+}
+
+@media screen {
+  .linkings{
+    display: flex;
+    justify-content: center;    
+  }
+
+  .lower{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
 }
 </style>

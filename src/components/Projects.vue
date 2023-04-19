@@ -10,10 +10,11 @@
           style="
             display: flex;
             justify-content: center;
+            margin-left: 1px;
           "
         >
           <div
-            class="col-sm-5 my-4 proj animate__animated animate__backInUp"
+            class="col-me-3 me-4 my-2 proj animate__animated animate__backInUp"
             v-for="pro in work"
             :key="pro"
             :pro="pro"
@@ -105,7 +106,6 @@ export default {
 }
 
 
-
 .container1{
   width: 100%;
   display: flex;
@@ -113,20 +113,19 @@ export default {
 }
 .card-title {
   padding: 18px;
-
   font-size: 25px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .proj {
   height: 23rem;
   max-width: 18rem;
-  margin-right: 2rem;
+  /* margin-left: 1rem; */
   border: 3px solid;
   background-color: rgba(128, 128, 128, 0.686);
   background-size: 100% 100%;
   border-radius: 10px;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   text-align: center;
   color: black;
 }
@@ -143,8 +142,8 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* margin-left: 1rem; */
-  /* margin-right: 1rem; */
+  /* margin-left: 1rem;
+  margin-right: 1rem; */
 }
 .butt {
   border-radius: 7px;
@@ -175,14 +174,5 @@ export default {
   border-bottom: 1px solid black;
   margin-left: 5rem;
   margin-right: 5rem;
-}
-@media screen and( max-width: 650px) {
-  .content {
-    display: flex;
-    justify-content: center;
-  }
-  #projects{
-    background: red
-  }
 }
 </style>
