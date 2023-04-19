@@ -37,6 +37,7 @@
         </div>
       </div>
     </div>
+    <div class="li"></div>
   </div>
 </template>
 
@@ -139,6 +140,13 @@ export default {
   overflow: hidden;
 }
 
+.li{
+  margin-top: 5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border-bottom: 1px solid black;
+}
+
 #education {
   /* border-bottom: 1px solid black; */
   margin-left: 5rem;
@@ -177,6 +185,8 @@ export default {
   display: inline-block;
   justify-content: center;
   width: 100%;
+  
+  /* border-bottom: 1px solid black; */
 }
 
 @media screen and ( max-width: 650px) {

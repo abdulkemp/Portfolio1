@@ -113,7 +113,7 @@ export default {};
   display: inline-block;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
   margin-left: 5rem;
   margin-right: 5rem;
 }
@@ -134,6 +134,13 @@ export default {};
 }
 label {
   color: black;
+}
+
+.form-control{
+  border: 1px solid black;
+}
+.form-select{
+  border: 1px solid black;
 }
 
 /* .container{

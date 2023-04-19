@@ -109,7 +109,7 @@ export default {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  color: grey;
+  color: black;
   /* max-width: 95%; */
   /* margin: 0 auto; */
 }
@@ -126,7 +126,7 @@ export default {
   margin: 0 auto;
 }
 .lower {
-  background-color: black;
+  background-color: grey;
   /* margin-top: 2rem; */
 }
 .socials {

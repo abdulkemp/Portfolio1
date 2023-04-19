@@ -22,6 +22,7 @@
         </div>
       </div>
     </div>
+    <div class="li"></div>
   </div>
 </template>
 
@@ -79,7 +80,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
   margin-left: 5rem;
   margin-right: 5rem;
 }

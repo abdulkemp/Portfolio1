@@ -1,31 +1,5 @@
 <template>
   <div id="about">
-    <!-- <div class="about">
-      <div class="about-me">
-        <h1>About Myself</h1>
-      </div>
-      <div class="aboutpage">
-        <div class="brief">
-          <div class="about-img">
-            <img src="https://i.postimg.cc/wBvZDWrt/pfp.jpg" alt="" />
-          </div>
-          <div class="about-brief">
-            <h1>Abdul-Azeez Kemp</h1>
-            <p>
-              I am Abdul-Azeez Kemp, a 24 year old from Mitchells plain, Cape
-              Town. <br />
-              I graduated from an art school with no knowledge of IT or web
-              development, but I have always had a passion for technology. I
-              began studying IT and Web Development to pursue a career in
-              technology. <br />
-              In my free time I'm spending time with my friends and family,
-              playing games, sports and learning knew skills other than IT
-              related.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div> -->
     <div class="about">
       <div class="about-me">
         <h1>About Myself</h1>
@@ -53,6 +27,7 @@
         </div>
       </div>
     </div>
+    <div class="li"></div>
   </div>
 </template>
 
@@ -68,6 +43,8 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
+
+
 
 .about-me{
     display: flex;

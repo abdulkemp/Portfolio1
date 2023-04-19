@@ -83,6 +83,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5rem;
   /* border-bottom: 1px solid black;
   margin-left: 5rem;
   margin-right: 5rem; */
