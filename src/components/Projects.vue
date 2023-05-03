@@ -43,6 +43,12 @@ export default {
     return {
       work: [
         {
+          name: "Lagom E-Comm",
+          github: "https://github.com/abdulkemp/Lagom-Project",
+          netlify: "https://lagom-ecom.netlify.app",
+          image: "https://i.postimg.cc/d3Q7cY0M/Screenshot-2023-05-02-120637.png",
+        },
+        {
           name: "Game Box",
           github: "https://github.com/abdulkemp/project.git",
           netlify: "https://project1-e-commerce.netlify.app/",
@@ -71,13 +77,7 @@ export default {
           github: "https://github.com/abdulkemp/Sneaker_Cartel.git",
           netlify: "https://sneaker-cartel.netlify.app/",
           image: "https://i.postimg.cc/jjF6j0Xy/Screenshot-20230112-162322.png",
-        },
-        {
-          name: "First Landpage",
-          github: "https://github.com/abdulkemp/new-landpage.git",
-          netlify: "https://newlandpage.netlify.app/",
-          image: "https://i.postimg.cc/cH334K6N/Screenshot-20230112-161353.png",
-        },
+        }
       ],
     };
   },

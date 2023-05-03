@@ -93,6 +93,7 @@ export default {
   width: 600px;
   height: auto;
   max-width: 100%;
+  border-radius: 50%;
 }
 .para {
   max-width: 100%;

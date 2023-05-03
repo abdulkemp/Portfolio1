@@ -7,7 +7,7 @@
       <div class="education">
         <div class="co">
           <div class="row edu" style="display: flex;justify-content: center;">
-            <div class="col-sm-3 my-2 boo" v-for="item in resume" :key="item">
+            <div class="col-sm-3 mt-5 boo" v-for="item in resume" :key="item">
               <div class="card bo">
                 <div class="card-body">
                   <h1>{{ item.year }}</h1>
@@ -47,6 +47,11 @@ export default {
   data() {
     return {
       resume: [
+        {
+          year: "2023",
+          place: "Life's Choice Academy",
+          desc: "Assigned as a Lecturer Assistant for the new Cohort",
+        },
         {
           year: "2022",
           place: "Life's Choice Academy",
