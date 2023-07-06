@@ -1,42 +1,31 @@
 <template>
   <div>
     <div class="footer">
-      <div class="linkings">
-        <ul class="links" style="list-style: none;">
-          <li class="nav-item">
-            <a href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#about">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a href="#education">Education and experience</a>
-          </li>
-        </ul>
-        <ul class="links2" style="list-style: none;" >
-          <li class="nav-item">
-            <a href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a href="#testimonials">Testimonials</a>
-          </li>
-          <li class="nav-item">
-            <a href="#contact">Contact Me</a>
-          </li>
-        </ul>
-        <div class="socials">
-          <div class="nav-items">
-            <a
-              href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAADdFuPgB2I1G4-ah-IZhI8rEvVRGrD2fPCU&keywords=abdul%20azeez%20kemp&origin=RICH_QUERY_SUGGESTION&position=2&searchId=a6af49ed-c659-42e5-9839-eed0b3f28d1c&sid=67k"
-              class="linkedin"
-            >
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
+      <div class="top-footer">
+        <div class="row wor">
+          <div class="col">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#education">Education and experience</a></li>
+            </ul>
           </div>
-          <div class="nav-items">
-            <a href="https://github.com/abdulkemp" class="github">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
+          <div class="col">
+            <ul>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#contact">Contact Me</a></li>
+            </ul>
+          </div>
+          <div class="col col-icons">
+            <a
+                href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAADdFuPgB2I1G4-ah-IZhI8rEvVRGrD2fPCU&keywords=abdul%20azeez%20kemp&origin=RICH_QUERY_SUGGESTION&position=2&searchId=a6af49ed-c659-42e5-9839-eed0b3f28d1c&sid=67k"
+                class="linkedin"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a><a href="https://github.com/abdulkemp" class="github">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
           </div>
         </div>
       </div>
@@ -57,7 +46,7 @@ export default {
 };
 </script>
   
-  <style>
+  <style scoped>
 .footer {
   width: 100%;
   height: 100%;
@@ -67,6 +56,57 @@ export default {
   border-top: 2px solid black;
   margin-top: 3rem;
 }
+
+.top-footer{
+  padding-top: 1rem;
+  background: grey;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wor{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.col-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.col-icons a{
+  font-size: 2rem;
+  color: black;
+}
+
+ul li{
+  list-style: none;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+}
+
+ul li a:hover{
+  color: black;
+}
+
 .footer .linkings .links {
   height: auto;
   max-width: 100%;

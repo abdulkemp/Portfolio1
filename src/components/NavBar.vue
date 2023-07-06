@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg navbar-light nav-color fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light nav-color fixed-top" data-aos="zoom-in" data-aos-duration="800">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
           ><img

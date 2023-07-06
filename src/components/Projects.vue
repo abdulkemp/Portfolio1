@@ -1,5 +1,5 @@
 <template>
-  <div id="projects">
+  <div id="projects" data-aos="fade-down" data-aos-duration="800">
     <div class="my-projects">
       <h1>Projects</h1>
     </div>

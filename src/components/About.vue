@@ -1,6 +1,6 @@
 <template>
   <div id="about">
-    <div class="about">
+    <div class="about" data-aos="zoom-in" data-aos-duration="800">
       <div class="about-me">
         <h1>About Myself</h1>
       </div>
@@ -60,7 +60,7 @@ export default {
 .down {
   width: 10rem;
   height: 3rem;
-  background: blue;
+  background-color: rgb(133, 128, 128);
   border: 2px solid black;
   border-radius: 50px;
   color: white;
@@ -139,6 +139,10 @@ export default {
     /* display: inline-block; */
   }
 
+  p{
+    text-align: center;
+  }
+
   .download {
     display: flex;
     justify-content: space-between;
@@ -168,7 +172,7 @@ export default {
     text-decoration: underline;
   }
   .para h1 {
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 1rem;
   }
 }
@@ -183,11 +187,23 @@ export default {
     width: 25rem;
     max-width: 100%;
   }
+  
+  p{
+    text-align: center;
+  }
 }
 @media screen and (max-width: 650px) {
   .every .d-flex {
     width: 15rem;
     max-width: 100%;
+  }
+  
+  p{
+    text-align: center;
+  }
+  h1{
+    text-align: center;
+    
   }
 }
 

@@ -1,6 +1,6 @@
 <template>
   <div id="home">
-    <div class="home">
+    <div class="home" data-aos="zoom-in" data-aos-duration="800">
       <div class="homepage">
         <div class="home-brief">
           <h1>Abdul-Azeez Kemp</h1>
@@ -10,7 +10,7 @@
           </a>
         </div>
         <div class="home-img">
-          <img src="https://i.postimg.cc/wBvZDWrt/pfp.jpg" alt="" />
+          <img src="https://i.postimg.cc/qvkPTkry/C11-Abdul-Azeez-Kemp-1.jpg" alt="" />
         </div>
       </div>
     </div>

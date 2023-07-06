@@ -1,5 +1,5 @@
 <template>
-  <div id="testimonials">
+  <div id="testimonials" data-aos="fade-down" data-aos-duration="800">
     <div class="all-testimonials">
       <h1>Testimonials</h1>
     </div>
@@ -118,14 +118,67 @@ export default {
   padding-left: 1rem;
 }
 
-@media screen and (max-width: 650px) {
-  /* #testimonials{
+
+
+@media screen and (max-width: 1400px) {
+  .testos {
     display: flex;
     justify-content: center;
     align-items: center;
-  } */
+    width: 25rem;
+    border: 3px solid black;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .im img {
+    width: 12rem;
+    height: 16rem;
+  }
+  
+  .boda{
+    /* width: 100%;
+    height: 100%; */
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.boda p{
+  font-size: 12px;
+}
+
+.boda h2{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.bord{
+  display: flex;
+  justify-content: center;
+}
+}
+@media screen and (max-width: 1200px) {
+  .testos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 3px solid black;
+    background-color: white;
+    text-align: center;
+  }
+  .bord{
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 650px) {
+ 
   .boda {
-    padding-left: 0;
+    padding: 0;
   }
   .bord {
     display: flex;
@@ -133,9 +186,8 @@ export default {
     align-items: center;
     width: 18rem;
   }
-  /* .im{
-    width: 7rem;
-  } */
+
+  
   .im img {
     width: 10rem;
     height: 10rem;
@@ -144,7 +196,7 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 15rem; */
+    width: 15rem;
     border: 3px solid black;
     height: 30rem;
     flex-wrap: wrap;

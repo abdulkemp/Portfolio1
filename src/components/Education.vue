@@ -1,13 +1,13 @@
 <template>
   <div class="edu">
-    <div id="education">
+    <div id="education" data-aos="zoom-in" data-aos-duration="800">
       <div class="education-skills">
         <h1>Education and Experience</h1>
       </div>
-      <div class="education">
+      <div class="education" data-aos="fade-left" data-aos-duration="800">
         <div class="co">
           <div class="row edu" style="display: flex;justify-content: center;">
-            <div class="col-sm-3 mt-5 boo" v-for="item in resume" :key="item">
+            <div class="col mt-5 boo" v-for="item in resume" :key="item">
               <div class="card bo">
                 <div class="card-body">
                   <h1>{{ item.year }}</h1>
@@ -19,15 +19,15 @@
           </div>
         </div>
       </div>
-    </div>
+    
 
-    <div class="skills">
+    <div class="education-skills" data-aos="zoom-in" data-aos-duration="800">
       <h1>Skills</h1>
     </div>
-    <div class="skill">
-      <div class="my-skills">
+    <div class="education" data-aos="fade-right" data-aos-duration="800">
+      <div class="co">
         <div class="row ski" style="display: flex;justify-content: center;">
-          <div class="col-md-3 mt-5 " v-for="item in skill" :key="item">
+          <div class="col mt-5 skil" v-for="item in skill" :key="item">
             <div class="card bod">
               <div class="card-body">
                 <img :src="item.image" alt="..." />
@@ -37,6 +37,7 @@
         </div>
       </div>
     </div>
+  </div>
     <div class="li"></div>
   </div>
 </template>
@@ -111,8 +112,16 @@ export default {
 };
 </script>
 
-<style>
-.card {
+<style scoped>
+.bod {
+  width: 17rem;
+  height: 13rem;
+  text-align: center;
+  background-color: wheat;
+  border: 2px solid black;
+  transition: transform 0.2s;
+}
+.bo {
   width: 20rem;
   height: 15rem;
   text-align: center;
@@ -153,7 +162,6 @@ export default {
 }
 
 #education {
-  /* border-bottom: 1px solid black; */
   margin-left: 5rem;
   margin-right: 5rem;
   justify-content: center;
@@ -178,29 +186,32 @@ export default {
 
 .card-body img {
   width: 15rem;
-  height: 12rem;
+  height: 11rem;
 }
 
 .education {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-bottom: 5rem; */
+  padding: 2px;
+  padding-bottom: 3rem;
 }
 
-.bod {
-  background-color: wheat;
-}
-.edu{
-  display: inline-block;
-  justify-content: center;
+.ski{
   width: 100%;
-  
-  /* border-bottom: 1px solid black; */
+  height: 100%;
 }
 
+.skil{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .boo{
-  margin-right: 1rem;
+  margin: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and ( max-width: 650px) {
@@ -218,21 +229,33 @@ export default {
     justify-content: center;
     margin: 0;
   }
-  /* .edu{
+
+  .skil{
     display: flex;
     justify-content: center;
-  } */
-
-  .education-skills{
-    display: inline-block;
-    justify-content: center;
+    margin: 0;
   }
 
   .bo{
-    width: 17rem;
+    width: 20rem;
   }
   .bod{
-    width: 17rem;
+    width: 20rem;
   }
+}
+
+@media screen and ( max-width: 1080px) {
+  .boo{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  .skil{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+ 
+
 }
 </style>

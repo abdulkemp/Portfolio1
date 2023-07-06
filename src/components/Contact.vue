@@ -1,5 +1,5 @@
 <template>
-  <div id="contact">
+  <div id="contact" data-aos="zoom-in" data-aos-duration="800">
     <div class="contact">
       <div class="contact-me">
         <h1>Contact Me</h1>
