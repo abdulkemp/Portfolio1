@@ -29,8 +29,9 @@
             Email : aakemp786@gmail.com
           </p>
           <div class="download">
-            <button class="down">Download CV</button>
-            <button class="down">Download Resume</button>
+            <a href="https://drive.google.com/uc?export=download&id=1SVob5NHWiDOly4V-t7H3BQnR-KjWRxTr" download><button class="down">Download CV</button></a>
+          
+            <a href="https://drive.google.com/uc?export=download&id=1-M5E2EBWHGORtHpsey1Nl96Q7knGAsMA" download><button class="down">Download Resume</button></a>
           </div>
         </div>
       </div>
