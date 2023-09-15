@@ -350,6 +350,10 @@ svg {
     transform: none;
   }
 
+  .card img{
+  border-radius: 5px;
+  }
+
   .card .date {
     position: relative;
     z-index: 3;
@@ -401,6 +405,10 @@ svg {
 
   .card:hover {
     transform: none;
+  }
+
+  .card img{
+    border-radius: 5px;
   }
 
   .card .date {
