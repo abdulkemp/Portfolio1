@@ -116,9 +116,8 @@ export default {
 
 .boda {
   padding-left: 1rem;
+  text-align: center;
 }
-
-
 
 @media screen and (max-width: 1400px) {
   .testos {
@@ -130,35 +129,34 @@ export default {
     background-color: white;
     text-align: center;
   }
-  
+
   .im img {
     width: 12rem;
     height: 16rem;
   }
-  
-  .boda{
+
+  .boda {
     /* width: 100%;
     height: 100%; */
     display: flex;
     justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
+    align-items: center;
+    flex-direction: column;
+  }
 
-.boda p{
-  font-size: 12px;
-}
+  .boda p {
+    font-size: 12px;
+  }
 
-.boda h2{
-  font-size: 20px;
-  font-weight: bold;
-}
+  .boda h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
 
-
-.bord{
-  display: flex;
-  justify-content: center;
-}
+  .bord {
+    display: flex;
+    justify-content: center;
+  }
 }
 @media screen and (max-width: 1200px) {
   .testos {
@@ -170,13 +168,12 @@ export default {
     background-color: white;
     text-align: center;
   }
-  .bord{
+  .bord {
     display: flex;
     justify-content: center;
   }
 }
 @media screen and (max-width: 650px) {
- 
   .boda {
     padding: 0;
   }
@@ -187,7 +184,6 @@ export default {
     width: 18rem;
   }
 
-  
   .im img {
     width: 10rem;
     height: 10rem;
