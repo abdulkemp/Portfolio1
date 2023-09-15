@@ -101,6 +101,10 @@ export default {
   width: 550px;
   padding: 0 10px;
 }
+
+.para p{
+  text-align: start;
+}
 .info {
   display: flex;
   justify-content: space-around;

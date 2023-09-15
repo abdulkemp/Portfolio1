@@ -20,22 +20,22 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item">
+            <li class="nav-item" aria-expanded="false">
               <a href="#home" class="nav-link active">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" aria-expanded="false">
               <a href="#about" class="nav-link active">About Me</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" aria-expanded="false">
               <a href="#education" class="nav-link active">Education and experience</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" aria-expanded="false">
               <a href="#projects" class="nav-link active">Projects</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" aria-expanded="false">
               <a href="#testimonials" class="nav-link active">Testimonials</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" aria-expanded="false">
               <a href="#contact" class="nav-link active">Contact Me</a>
             </li>
           </ul>

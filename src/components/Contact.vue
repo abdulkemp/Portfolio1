@@ -118,6 +118,8 @@ export default {};
   margin-right: 5rem;
 }
 
+
+
 .contact-me {
   display: flex;
   justify-content: center;
@@ -149,10 +151,25 @@ label {
   #contact{
     display: flex;
     justify-content: center;
+    align-items: center;
+  }
+  input{
+    width: 1rem;
+  }
+  .col-md-6{
+    width: 20rem;
   }
 }
-
-/* .container{
-    width: 76%;
-} */
+@media screen and (max-width: 1080px) {
+  .com{
+    width: 100%;
+  }
+  #contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+}
 </style>
