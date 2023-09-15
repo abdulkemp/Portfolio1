@@ -334,7 +334,7 @@ svg {
     align-items: flex-end;
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
     transition: 0.5s ease-in-out;
-    border-radius: 15px;
+    border-radius: 5px;
   }
 
   .hover {
@@ -396,7 +396,7 @@ svg {
     align-items: flex-end;
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
     transition: 0.5s ease-in-out;
-    border-radius: 15px;
+    border-radius: 5px;
   }
 
   .card:hover {
