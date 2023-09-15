@@ -117,6 +117,7 @@ export default {
 .boda {
   padding-left: 1rem;
   text-align: center;
+  width: 100%;
 }
 
 @media screen and (max-width: 1400px) {
