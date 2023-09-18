@@ -215,7 +215,7 @@ svg {
   align-items: flex-end;
   box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
   transition: 0.5s ease-in-out;
-  border-radius: 5px;
+  border-radius: 0;
 }
 
 .card::before {
@@ -230,7 +230,7 @@ svg {
   z-index: 2;
   transition: 0.5s all;
   opacity: 0;
-  border-radius: 5px;
+  border-radius: 0;
 }
 
 .card:hover::before {
@@ -295,7 +295,7 @@ svg {
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: 5px;
+  border-radius: 0;
 }
 
 .pulse {
@@ -334,7 +334,7 @@ svg {
     align-items: flex-end;
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
     transition: 0.5s ease-in-out;
-    border-radius: 5px;
+    border-radius: 0;
   }
 
   .hover {
@@ -351,7 +351,7 @@ svg {
   }
 
   .card img{
-  border-radius: 5px;
+  border-radius: 0;
   }
 
   .card .date {
@@ -400,7 +400,7 @@ svg {
     align-items: flex-end;
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
     transition: 0.5s ease-in-out;
-    border-radius: 5px;
+    border-radius: 0;
   }
 
   .card:hover {
@@ -408,7 +408,7 @@ svg {
   }
 
   .card img{
-    border-radius: 5px;
+    border-radius: 0;
   }
 
   .card .date {

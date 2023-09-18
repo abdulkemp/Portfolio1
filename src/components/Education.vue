@@ -218,6 +218,10 @@ export default {
   transition: transform 0.2s;
 }
 
+.card{
+  border-radius: 0;
+}
+
 .education-skills {
   display: flex;
   justify-content: center;
