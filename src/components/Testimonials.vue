@@ -63,10 +63,22 @@ export default {
           image: "https://i.postimg.cc/nrRNXDHF/DSC-3525.jpg",
         },
         {
-          name: "Karen Bruce",
+          name: "Joel Mukanya",
           testimonial:
-            "Abdul is a fast learner and dedicated worker. He always seeks more knowledge and encourages himself to gain more experience. He brings a light and motivated energy to the work environment. As an asset to your company, he will ensure that all goals are being achieved.",
-          image: "https://i.postimg.cc/3xRJfXyB/karen.jpg",
+            "Abdul-Azeez Kemp is creative, well-behaved, dedicated, and a goal-getter; he enjoys working with his peers and works well on his project. He has learned a variety of skills, such as web development, backend, and more.",
+          image: "https://i.postimg.cc/zXRt8Wrr/joel2.jpg",
+        },
+        {
+          name: "Oslin Johnson",
+          testimonial:
+            "Abdul is a very humble and resilient person with the ability to overcome adversity in the technical aspect. He is always wanting to learn and improve his ability as a developer. As a leader he has become a good one always being willing to help anyone, also an even better team player making sure his team reach their goal. ",
+          image: "https://i.postimg.cc/rs3J0z8R/pic2.jpg",
+        },
+        {
+          name: "Candice Amon",
+          testimonial:
+            "Abdul, an intern, was punctual, committed, and disciplined. He successfully executed tasks and was available for assistance. Abdul's gentle personality and teamwork skills made him a pleasure to work with and would be hired again. If you have any questions, contact 0785756863.",
+          image: "https://i.postimg.cc/9XdfGSTX/27-candice-2022-pp1mt7sr5e41e1x5tqe2xgjgigkvycj7hlkvyrx4au.jpg",
         },
       ],
     };
