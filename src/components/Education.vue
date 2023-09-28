@@ -142,6 +142,9 @@ export default {
         {
           image: "https://i.postimg.cc/qMrjXN3Q/node-js-1174925.webp",
         },
+        {
+          image: "https://i.postimg.cc/mgtDbhmR/wordpress-logo-transparent-background-11662328855b61zeb65vj-removebg-preview.png"
+        },
       ],
     };
   },
@@ -151,7 +154,7 @@ export default {
 <style scoped>
 .bod {
   width: 17rem;
-  height: 13rem;
+  height: 14rem;
   text-align: center;
   background-color: wheat;
   border: 2px solid black;
@@ -277,7 +280,7 @@ export default {
 
 
 .card-body img {
-  width: 15rem;
+  width: 14rem;
   height: 11rem;
 }
 
