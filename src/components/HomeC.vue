@@ -47,6 +47,19 @@ export default {
 
 .home-img {
   padding-left: 5rem;
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.homepage {
+  display: flex;
+  align-items: center;
+}
+
+.home-img {
+  padding-left: 5rem; */
 }
 
 .ht{
