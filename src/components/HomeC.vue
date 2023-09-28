@@ -9,8 +9,8 @@
             <button class="con-btn">Lets Connect</button>
           </a>
         </div>
-        <div class="home-img">
-          <img src="https://i.postimg.cc/qvkPTkry/C11-Abdul-Azeez-Kemp-1.jpg" alt="" />
+        <div class="home-img ht">
+          <img src="https://i.postimg.cc/qvkPTkry/C11-Abdul-Azeez-Kemp-1.jpg" style="border-radius: 50%;" alt="" />
         </div>
       </div>
     </div>
@@ -49,10 +49,14 @@ export default {
   padding-left: 5rem;
 }
 
-.home-img img {
-  border-radius: 40% 60% 48% 52% / 57% 45% 55% 43%;
-  width: 20rem;
+.ht{
+  border-radius: 50%;
 }
+
+/* .home-img img {
+  border-radius: 50%;
+  width: 20rem;
+} */
 
 /* .home-brief{
       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
