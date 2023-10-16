@@ -113,9 +113,17 @@ export default {};
   display: inline-block;
   justify-content: center;
   align-items: center;
-  /* border-bottom: 1px solid black; */
   margin-left: 5rem;
   margin-right: 5rem;
+  width: 100%;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 

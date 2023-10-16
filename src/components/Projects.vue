@@ -115,6 +115,14 @@ export default {
           image:
             "https://i.postimg.cc/GhLKqNRB/Screenshot-2023-09-15-095718.png",
         },
+        {
+          name: "Elemental Challenge",
+          github: "https://github.com/abdulkemp/ElementalChallenge.git",
+          netlify: "https://elementalchallenge.netlify.app/",
+          desc: "Elemental Challenge, single page responsive for all sizes. HTML, CSS and JQuery",
+          image:
+            "https://i.postimg.cc/x11xtCHJ/2023-10-16.png",
+        },
       ],
     };
   },
@@ -393,7 +401,7 @@ svg {
   }
   .card {
     width: 350px;
-    height: 220px;
+    height: 200px;
     background: #fff;
     position: relative;
     display: flex;
@@ -440,13 +448,13 @@ svg {
 
   .pulse {
     visibility: visible;
-    height: 150px;
-    width: 150px;
-    background: linear-gradient(#00000059, #0000005d);
+    height: 130px;
+    width: 130px;
+    background: linear-gradient(#00000077, #0000007a);
     position: absolute;
-    left: -12px !important;
-    /* right: 4px !important; */
-    top: 10%;
+    left: -5px !important;
+    /* right: 224px !important; */
+    top: 40%;
     bottom: 0;
     border-radius: 50%;
     display: grid;
