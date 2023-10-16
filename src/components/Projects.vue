@@ -454,6 +454,7 @@ svg {
     position: absolute;
     left: -5px !important;
     /* right: 224px !important; */
+    /* right: 224px !important; */
     top: 40%;
     bottom: 0;
     border-radius: 50%;
