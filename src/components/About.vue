@@ -14,7 +14,7 @@
         <div class="para">
           <h1>Hi I am Abdul-Azeez Kemp</h1>
           <p>
-            I am Abdul-Azeez Kemp, a 24 year old from Mitchells plain, Cape
+            I am Abdul-Azeez Kemp, a 25 year old from Mitchells plain, Cape
             Town. <br />
             I graduated from an art school with no knowledge of IT or web
             development, but I have always had a passion for technology. I began
