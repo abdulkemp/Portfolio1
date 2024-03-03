@@ -59,7 +59,7 @@ export default {
 }
 
 .home-img img {
-  border-radius: 40% 60% 48% 52% / 57% 45% 55% 43%;
+  /* border-radius: 40% 60% 48% 52% / 57% 45% 55% 43%; */
   width: 20rem;
 }
 

@@ -60,12 +60,12 @@ export default {
             "https://i.postimg.cc/d3Q7cY0M/Screenshot-2023-05-02-120637.png",
         },
         {
-          name: "Game Box",
-          github: "https://github.com/abdulkemp/project.git",
-          netlify: "https://project1-e-commerce.netlify.app/",
-          desc: "An e-commerce gaming website project selling quality and limited edition games and consoles",
+          name: "Trailblitz",
+          github: "https://github.com/abdulkemp/Trailblitz.git",
+          netlify: "https://trailblitz.netlify.app",
+          desc: `Trailblitz: Your premier online destination for bicycles and sportsbikes, offering quality and adventure in every ride. "Project still in the making."`,
           image:
-            "https://i.postimg.cc/xqDdd4PF/Screenshot-2023-08-24-120051.png",
+            "https://i.ibb.co/bQkJJ3B/Screenshot-2024-03-03-175100.png",
         },
         {
           name: "Calculator",
@@ -73,23 +73,15 @@ export default {
           netlify: "https://calculatorjsnew1.netlify.app/",
           desc: "A basic calculator as a project to test out javascript",
           image:
-            "https://i.postimg.cc/KjHC74qK/Screenshot-2023-08-22-094231.png",
-        },
-        {
-          name: "Gomi Replica",
-          github: "https://github.com/abdulkemp/Gomi-Rep",
-          netlify: "https://gomi-rep.netlify.app/",
-          desc: `A replica of a well designed website using only HTML, CSS and Bootstrao 5.3, reason for replicating was to practice designing. The original website "https://gomi.design/".`,
-          image:
-            "https://i.postimg.cc/fTRfH9Hs/Screenshot-2023-08-19-124313.png",
+            "https://i.postimg.cc/9M6Kvm2v/Screenshot-2024-02-07-194956.png",
         },
         {
           name: "My Desktop",
-          github: "https://github.com/abdulkemp/desktop1",
-          netlify: "https://desktop-rep.netlify.app/",
+          github: "https://github.com/abdulkemp/desktop1.git",
+          netlify: "https://desktop-rep.netlify.app",
           desc: "This a replica of a desktop, that I thought of designing.",
           image:
-            "https://i.postimg.cc/bJjvm4j5/Screenshot-2023-08-19-130527.png",
+            "https://i.ibb.co/QJNx9RT/Screenshot-2024-02-08-181937.png",
         },
         {
           name: "Hangman",
@@ -97,7 +89,7 @@ export default {
           netlify: "https://hangman-kemp.netlify.app",
           desc: "This is a hangman game with four different levels starting from easy to extreme",
           image:
-            "https://i.postimg.cc/jj20DQZm/Screenshot-2023-08-29-162104.png",
+            "https://i.ibb.co/FYLyC6X/Screenshot-2024-02-08-191231.png",
         },
         {
           name: "Piano",
@@ -105,7 +97,7 @@ export default {
           netlify: "https://the-piano-site.netlify.app/",
           desc: "This is an online piano, so you can play some tunes",
           image:
-            "https://i.postimg.cc/XNTWqCSN/Screenshot-2023-09-14-120732.png",
+            "https://i.ibb.co/sv2RNb7/Screenshot-2024-02-08-182836.png",
         },
         {
           name: "Password Generator",
@@ -113,7 +105,15 @@ export default {
           netlify: "https://password-gener.netlify.app/",
           desc: "This is an online password generator, with random characters mixed up for a strong password",
           image:
-            "https://i.postimg.cc/GhLKqNRB/Screenshot-2023-09-15-095718.png",
+            "https://i.ibb.co/QCK1TW7/Screenshot-2024-02-08-183012.png",
+        },
+        {
+          name: "Elemental Challenge",
+          github: "https://github.com/abdulkemp/ElementalChallenge.git",
+          netlify: "https://elementalchallenge.netlify.app",
+          desc: "An Elemental Challenge in create a website, fully responsive to every size from a photo reference.",
+          image:
+            "https://i.ibb.co/LQB6YYg/Screenshot-2024-02-08-192039.png",
         },
         {
           name: "Elemental Challenge",

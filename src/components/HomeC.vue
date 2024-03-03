@@ -10,20 +10,20 @@
           </a>
         </div>
         <div class="home-img ht">
-          <img src="https://i.postimg.cc/qvkPTkry/C11-Abdul-Azeez-Kemp-1.jpg" style="border-radius: 50%;" alt="" />
+          <img src="https://i.postimg.cc/wx1ZSxQz/C11-Abdul-Azeez-Kemp-1-1.jpg" alt="" />
         </div>
       </div>
     </div>
   </div>
 </template>
-  
-  <script>
+
+<script>
 export default {
   name: "Home",
 };
 </script>
-  
-  <style>
+
+<style>
 .home {
   min-height: 100vh;
   /* background-color: blue; */
@@ -47,6 +47,11 @@ export default {
 
 .home-img {
   padding-left: 5rem;
+}
+.home-img img {
+  border: 2px solid black;
+}
+
 /* * {
   margin: 0;
   padding: 0;
@@ -59,10 +64,10 @@ export default {
 }
 
 .home-img {
-  padding-left: 5rem; */
-}
+  padding-left: 5rem;
+} */
 
-.ht{
+.ht {
   border-radius: 50%;
 }
 

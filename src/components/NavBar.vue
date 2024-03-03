@@ -4,7 +4,7 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
           ><img
-            src="https://i.postimg.cc/Jz6QhpGR/aak-high-resolution-logo-black-on-transparent-background.png"
+            src="https://i.postimg.cc/B6cB3M2K/aak-high-resolution-logo-black-transparent.png"
             alt=""
         /></a>
         <button
