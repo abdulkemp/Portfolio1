@@ -14,22 +14,24 @@
         <div class="para">
           <h1>Hi I am Abdul-Azeez Kemp</h1>
           <p>
-            I am Abdul-Azeez Kemp, a 25 year old from Mitchells plain, Cape
-            Town. <br />
-            I graduated from an art school with no knowledge of IT or web
-            development, but I have always had a passion for technology. I began
-            studying IT and Web Development to pursue a career in technology.
+            I am Abdul-Azeez Kemp, a 25 year old from Mitchells plain, Cape Town. <br />
+            I graduated from an art school with no knowledge of IT or web development, but
+            I have always had a passion for technology. I began studying IT and Web
+            Development to pursue a career in technology.
             <br />
-            In my free time I'm spending time with my friends and family,
-            playing games, sports and learning knew skills other than IT
-            related.
+            In my free time I'm spending time with my friends and family, playing games,
+            sports and learning knew skills other than IT related.
           </p>
           <p>
             Call me: 082 886 9476 <br />
             Email : aakemp786@gmail.com
           </p>
-          <div class="download">         
-            <a href="https://drive.google.com/uc?export=download&id=1jNcWqmVHt9rNG8yg2-uUd7ohovNnoHXM" download><button class="down">Download Resume</button></a>
+          <div class="download">
+            <a
+              href="https://drive.google.com/uc?export=download&id=1Dl6lHVBm_M2ocZaFdSBl-exSTJizhKSZ"
+              download
+              ><button class="down">Download Resume</button></a
+            >
           </div>
         </div>
       </div>
@@ -101,7 +103,7 @@ export default {
   padding: 0 10px;
 }
 
-.para p{
+.para p {
   text-align: start;
 }
 .info {
@@ -143,7 +145,7 @@ export default {
     /* display: inline-block; */
   }
 
-  p{
+  p {
     text-align: center;
   }
 
@@ -191,8 +193,8 @@ export default {
     width: 25rem;
     max-width: 100%;
   }
-  
-  p{
+
+  p {
     text-align: center;
   }
 }
@@ -201,13 +203,12 @@ export default {
     width: 15rem;
     max-width: 100%;
   }
-  
-  p{
+
+  p {
     text-align: center;
   }
-  h1{
+  h1 {
     text-align: center;
-    
   }
 }
 
