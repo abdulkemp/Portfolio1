@@ -29,7 +29,7 @@
             Email : aakemp786@gmail.com
           </p>
           <div class="download">         
-            <a href="https://drive.google.com/uc?export=download&id=1jNcWqmVHt9rNG8yg2-uUd7ohovNnoHXM" download><button class="down">Download Resume</button></a>
+            <a href="https://drive.google.com/uc?export=download&id=1JxbCYqmT7T69qTbwZZ6nU39tHLWOFyXm" download><button class="down">Download Resume</button></a>
           </div>
         </div>
       </div>
